@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Проект "Активный гражданин 2025" 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Для разработчиков
+Проект создан с помощью create-react-application [https://github.com/facebook/create-react-app](https://github.com/facebook/create-react-app)
 
-## Available Scripts
+***Для работы с проектом у вас должен быть установлен Node.js [https://nodejs.org/en/](https://nodejs.org/en/) последней версии.***
 
-In the project directory, you can run:
+Для запуска проекта на локальной машине вам необходимо установить все необходимые зависимости:
+    
+    npx -i
 
-### `yarn start`
+После установки всех зависимостей ваш проект сможет быть запущен слудующими скриптами:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    npm start
+    npm build
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+После запуска скрипта start ваш проект в режиме HotReload будет доступен в браузере по адресу http://localhost:3000
 
-### `yarn test`
+Скрипт build  используется для продакшн сборки, скомпилированные файлы будут размещены в дирректории public/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Оформление кода
+В проекте используется линтер Eslint [https://eslint.org/](https://eslint.org/)
 
-### `yarn build`
+### Файлы конфигурации eslint
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* .eslintrc.js описывает конфигуразии для eslint
+* .eslintignore содержит исключения для проверки
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Стандарт стиля Airbnb
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* руководство на английском [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
 
-### `yarn eject`
+* руководство перевод на русский [https://github.com/leonidlebedev/javascript-airbnb](https://github.com/leonidlebedev/javascript-airbnb) 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Editorconfig
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+EditorConfig [https://editorconfig.org/](https://editorconfig.org/) помогает поддерживать согласованные стили кодирования для нескольких разработчиков, работающих над одним проектом в разных редакторах и IDE.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Файл конфигурации Editorconfig
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* .editorconfig
 
-## Learn More
+В том случае, если вы используете среду разработки vsCode ва необходимо установить разрешение editorconfig for vsCode из маркетплейса vsCode.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Если вы используете IDE, например, webStorm или phpStorm дополнительная установка расширения Editorconfig не требуется
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Дополнительные модули npm используемые в проекте
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* CSS Modules [https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/)
