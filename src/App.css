@@ -1,0 +1,8 @@
+.App {
+  width: 100%;
+  min-width: 320px;
+  margin: 0 auto;
+	height: auto;
+	padding: 18px;
+	box-sizing: border-box;
+}
