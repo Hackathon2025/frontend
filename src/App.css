@@ -1,0 +1,7 @@
+/* *{
+  outline: red 1px solid;
+} */
+.App{
+  max-width: 1920px;
+  margin: 0 auto;
+}
