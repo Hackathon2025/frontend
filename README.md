@@ -48,3 +48,5 @@ EditorConfig [https://editorconfig.org/](https://editorconfig.org/) помога
 ## Дополнительные модули npm используемые в проекте
 
 * CSS Modules [https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/)
+* Библиотека classNames [https://www.npmjs.com/package/classnames](https://www.npmjs.com/package/classnames). Помогает повысить эффективность использования классов стилизации в компонентах.
+* Библиотека PropTypes [https://www.npmjs.com/package/prop-types](https://www.npmjs.com/package/prop-types). Помогает осуществить проверку типов во время выполнения для пропсов в  React и подобных объектах.
